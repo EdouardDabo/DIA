@@ -5,7 +5,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix
 
-
 iris_data = pd.read_csv("Iris_Dataset.csv")
 
 print(iris_data.head())
