@@ -55,5 +55,8 @@ feature_importance.nlargest(10).plot(kind='barh')
 plt.show()
 
 
+#save the model
+import pickle
+pickle.dump(grid_model, open('model.pkl', 'wb'))
 
 
